@@ -8,7 +8,7 @@
 
 
 
-header{
+#headerAC{
     background-image:url("fondheader.jpg");
     box-shadow: 0px 9px 11px black;
     border: solid 1px ;
@@ -18,14 +18,14 @@ header{
 
 
 
-nav{
+#navAC{
     margin-top: -1%;
     text-decoration: none;
 }
 
 
 
-ul{
+#ulAC{
     list-style: none;
     text-decoration: none;
     display: flex;
@@ -113,7 +113,7 @@ footer{
 /*PRESENTATION*/
 
 
-body{
+#bodyPR{
     background-image:url("fondPR.jpg");
     background-size: 100% 100%;
     margin:0;   
@@ -121,7 +121,7 @@ body{
 
 
 
-header{
+#headerPR{
     background-image:url("fondheader.jpg");
     box-shadow: 0px 9px 11px black;
     border: solid 1px ;
@@ -131,14 +131,14 @@ header{
 
 
 
-nav{
+#navPR{
     margin-top: -1%;
     text-decoration: none;
 }
 
 
 
-ul{
+#ulPR{
     list-style: none;
     text-decoration: none;
     display: flex;
@@ -182,7 +182,7 @@ li a:hover{
 
 
 
-.diaporama{
+.diaporamaPR{
     margin-left: 2%;
     margin-top: 5%;
     box-shadow: 0px 9px 11px black;
@@ -396,3 +396,162 @@ li a:hover{
     flex-direction: row;
     margin-top: 5%;
 }
+
+
+/*Legumes.CSS*/
+
+
+
+#bodyLEG{
+    background-size: 100% 100%;
+    margin:0; 
+}
+
+
+
+#headerLEG{
+    background-color: green;
+}
+
+
+
+#navLEG{
+    background-color: green;
+    text-decoration: none;
+}
+
+
+
+#ulLEG{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+li a{
+    text-shadow: 3px 3px 2px black;
+    font-size: 35px;
+    font-family: cursive;
+    text-decoration: none;
+    color: white;
+}
+    
+.load
+{
+    animation: slide 2s;
+}
+ 
+
+
+.slider
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 20s infinite;
+}
+ 
+
+
+.content
+{
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+ 
+
+
+.principal
+{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+ 
+.principal h1
+{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+ 
+.principal p
+{
+    font-size: 20px;
+}
+
+
+@keyframes slide
+{
+    0%{
+     background-image: url("legumes7.jpg");
+     }
+     10%{
+        background-image: url("legumes.jpg");    
+     }
+    20%{
+     background-image: url("fraises2.jpg");
+     }
+    20.01%{
+     background-image: url("legumes5.jpg");
+     }
+    40%{
+     background-image: url("tomates.webp");
+     }
+    40.01%{
+     background-image: url("salades.jpg");
+     }
+    60%{
+     background-image: url("legumes2.jpg");
+     }
+    60.01%{
+     background-image: url("legume3.jpg");
+     }
+    80%{
+     background-image: url("legumes5.jpg");
+     }
+    80.01%{
+     background-image: url("legumes.jpg");
+     }
+    100%{
+     background-image: url("legumes6.jpg");
+     }
+    
+    }
+
+
+    footer{
+        background-color: green;
+         display: flex;
+         justify-content: space-around;
+         height: 71px;
+         margin: 0;
+         margin-top: -9%;
+     }
+     
+     
+     .pfootAC{
+         text-align: center;
+     }
+     
+     
+     
+     #logofootAC{
+         width: 20%;
+         margin-top: -7%;
+         margin-left: 37%;    
+     }
+    
+    
+    
+    
+
