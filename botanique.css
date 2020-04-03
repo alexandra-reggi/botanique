@@ -53,6 +53,7 @@ li a{
 }
 
 
+
 #hautACC{
     display: flex;
     flex-direction: row;
@@ -86,13 +87,13 @@ li a{
 
 
 
-footer{
+#footerAC{
    background-color: green;
     display: flex;
     justify-content: space-around;
     height: 65px;
     margin: 0;
-    margin-top: 4%;
+   
 }
 
 
@@ -100,6 +101,10 @@ footer{
     text-align: center;
 }
 
+
+.pfootAC:hover{
+    zoom: 2;
+}
 
 
 #logofootAC{
@@ -318,6 +323,7 @@ li a:hover{
 #footnewletPR{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 11%;
     background-color: black;
     height: 255px;
@@ -328,6 +334,7 @@ li a:hover{
 #foot1{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -336,16 +343,7 @@ li a:hover{
     margin: 5%;
     display: flex;
     flex-direction: column;
-}
-
-
-
-#footPR{
-    background-color: green;
-    display: flex;
-    justify-content: space-around;
-    height: 75px;
-    margin: 0;
+    justify-content: center;
 }
 
 
@@ -354,6 +352,7 @@ li a:hover{
     color: white;
     text-align: center;
 }
+
 
 
 #input1PR{
@@ -397,6 +396,37 @@ li a:hover{
     margin-top: 5%;
 }
 
+
+
+#footerPR{
+    background-color: green;
+     display: flex;
+     justify-content: space-around;
+     height: 65px;
+     margin: 0;
+     margin-top: 1%;
+ }
+ 
+ 
+
+ .pfootPR{
+     text-align: center;
+ }
+ 
+
+ 
+ .pfootPR:hover{
+     zoom: 2;
+ }
+ 
+
+
+ #logofootPR{
+     width: 20%;
+     margin-top: -7%;
+     margin-left: 37%;    
+ }
+   
 
 /*Legumes.CSS*/
 
@@ -453,7 +483,7 @@ li a{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 100vh;
+    height: 91vh;
     animation: slide 20s infinite;
 }
  
@@ -478,16 +508,34 @@ li a{
     text-align: center;
 }
  
+
+
 .principal h1
 {
     font-size: 70px;
     margin-bottom: 20px;
 }
  
-.principal p
+
+
+.principal a
 {
+    text-decoration: none;
     font-size: 20px;
 }
+
+
+
+a:visited{
+    color:white;
+}
+
+
+a:hover{
+    zoom: 2;
+
+}
+
 
 
 @keyframes slide
@@ -529,23 +577,26 @@ li a{
     }
 
 
-    footer{
+    #footerLEG{
         background-color: green;
          display: flex;
          justify-content: space-around;
-         height: 71px;
+         height: 75px;
          margin: 0;
-         margin-top: -9%;
+         margin-top: -5%;
      }
      
      
-     .pfootAC{
+     .pfootLEG{
          text-align: center;
      }
      
      
+     .pfootLEG:hover{
+        zoom: 2;
+    }
      
-     #logofootAC{
+     #logofootLEG{
          width: 20%;
          margin-top: -7%;
          margin-left: 37%;    
