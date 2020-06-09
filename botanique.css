@@ -24,6 +24,9 @@
 }
 
 
+.liAC .aAC:hover{
+    zoom: 2;
+}
 
 #ulAC{
     list-style: none;
@@ -35,7 +38,7 @@
 
 
 
-li a{
+.liAC .aAC{
     text-shadow: 3px 3px 2px black;
     font-size: 35px;
     font-family: cursive;
@@ -97,6 +100,12 @@ li a{
 }
 
 
+.pAC{
+    color: black;
+}
+
+
+
 .pfootAC{
     text-align: center;
 }
@@ -153,7 +162,7 @@ li a{
 
 
 
-li a{
+.liPR .aPR{
     text-shadow: 3px 3px 2px black;
     font-size: 35px;
     font-family: cursive;
@@ -163,9 +172,13 @@ li a{
 
 
 
-li a:hover{
+.liPR .aPR:hover{
     zoom:2;
 }
+
+
+
+#mainPR{}
 
 
 
@@ -426,6 +439,11 @@ li a:hover{
      margin-top: -7%;
      margin-left: 37%;    
  }
+
+
+ .pPR{
+     color: black;
+ }
    
 
 /*Legumes.CSS*/
@@ -452,6 +470,10 @@ li a:hover{
 
 
 
+.liLEG .aLEG:hover{
+    zoom: 2;
+}
+
 #ulLEG{
     list-style: none;
     text-decoration: none;
@@ -462,19 +484,33 @@ li a:hover{
 
 
 
-li a{
+.liLEG .aLEG{
     text-shadow: 3px 3px 2px black;
     font-size: 35px;
     font-family: cursive;
     text-decoration: none;
     color: white;
 }
-    
+  
+
+
 .load
 {
     animation: slide 2s;
 }
  
+
+
+#h1LEG{
+    color: white;
+}
+
+
+
+.catLEG{
+    color: white;
+}
+
 
 
 .slider
@@ -510,7 +546,7 @@ li a{
  
 
 
-.principal h1
+.principal #h1LEG
 {
     font-size: 70px;
     margin-bottom: 20px;
@@ -518,7 +554,7 @@ li a{
  
 
 
-.principal a
+.principal .catLEG
 {
     text-decoration: none;
     font-size: 20px;
@@ -526,12 +562,12 @@ li a{
 
 
 
-a:visited{
+.catLEG:visited{
     color:white;
 }
 
 
-a:hover{
+.catLEG:hover{
     zoom: 2;
 
 }
@@ -604,5 +640,8 @@ a:hover{
     
     
     
+    .pLEG{
+        color: black;
+    } 
     
 
